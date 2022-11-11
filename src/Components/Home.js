@@ -1,6 +1,8 @@
 import Button from "./Button"
 import { useContext } from "react"
 import contextTheme from "../Context"
+import Nav from "./Nav";
+
 
 const Home = () => {
     const Data = [
@@ -29,6 +31,7 @@ const Home = () => {
     const { light} = useContext(contextTheme);
     return (
         <div className={light === true ? "light" : "dark"}>
+        <Nav />
             <h1>Home Page</h1>
             <Button />
 
