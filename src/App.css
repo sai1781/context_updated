@@ -74,7 +74,20 @@ button:hover{
 .light{
   background-color: White;
   color:black;
+  width:50%;
 }
 .dark{
+  width:50%;
   background-color: black;
+}
+.nav{
+  border: 2px  solid #d13565;
+  width: fit-content;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
 }
