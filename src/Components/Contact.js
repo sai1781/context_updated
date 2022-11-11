@@ -1,6 +1,8 @@
 import Button from "./Button"
 import { useContext } from "react"
 import contextTheme from "../Context"
+import Nav from "./Nav";
+
 
 
 const Contact = () => {
@@ -31,6 +33,7 @@ const Contact = () => {
 
   return (
     <div className={light === true ? "light" : "dark"}>
+    <Nav />
       <h1>Contact page</h1>
 
       <Button />
