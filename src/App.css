@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* margin-bottom: 5rem; */
+}
+
+.App-header {
+  min-height: 100vh;
+  min-width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: white;
+}
+
+
+
+.change{
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+.active{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 5rem;
+}
+button{
+  background-color: #d13565;
+  color: black;
+  width: 6rem;
+  height: 1.7rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+  border:1px solid white;
+  margin-top: 2rem;
+  
+}
+.content{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  
+}
+.content2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+.buttonchange{
+  color: white;
+  border:1px solid white;
+  box-shadow: 1px 1px 3px white;
+
+}
+button:hover{
+  background-color: green !important;
+  color: white;
+}
+
+.light{
+  background-color: White;
+  color:black;
+}
+.dark{
+  background-color: black;
+}
